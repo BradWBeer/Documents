@@ -1,0 +1,46 @@
+#+TITLE: CL-MAKEGAME
+
+* Install helper
+** Help installing Lisp, Quicklisp, and Emacs on your platform
+*** Choose CUA-mode and other emacs options
+** Choose where startup file goes
+** Choose default projects folder 
+* Project helper
+** User fills in required info (author, project name, title etc)
+** Create a new directory called projectname.xelf
+*** Can compress for distribution into .xelf.gz
+** Auto-written package.lisp and projectname.asd
+** Optional license chooser in LICENSE.txt
+** Auto very simple boilerplate yasnippets / template-mode
+** Starter kits with basic classes/assets
+*** Simple pong
+*** Simple shooter
+*** Simple adventure
+*** Basic physics
+** Fork/snapshot/merge projects for crazy remixing/improvisation/jamming
+* Class browser
+** Creating a new class optionally creates classname.lisp and updates the .asd
+* Resource browser
+** Change volume properties of sounds/music 
+** Customize available font sets
+** Possible emacs image-dired and other imagemagick
+* Buffer editor/manager
+* Game test
+
+* Disorganized tasks section
+** DONE gather all xelf code from /obsolete/dir and /alpha and glass.el
+   CLOSED: [2016-04-11 Mon 18:30]
+** DONE review blocks.lisp
+   CLOSED: [2016-04-11 Mon 18:30]
+** TODO review buffers.lisp drag/drop code
+** TODO revise modeline/dialog box classes; revive DEFINE-BLOCK-MACRO
+** TODO revise halos
+** TODO possibly rename PHRASE class
+
+** TODO design a complete workflow
+*** TODO use quickproject? to make projects and do everything properly when creating a CL-MAKEGAME
+*** TODO save system state using cypress-style serialization to projectname.xelf
+*** TODO snapshot / fork projects
+*** TODO ship a windows CUA-mode option? 
+** TODO identify code revisions
+** TODO need ready made classes and several example games to build on
